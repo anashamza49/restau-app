@@ -12,21 +12,25 @@
     <div class="col-md-4">
         <form asp-action="Create" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="Nom" class="control-label"></label>
                 <input asp-for="Nom" class="form-control" />
                 <span asp-validation-for="Nom" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Note" class="control-label"></label>
                 <input asp-for="Note" class="form-control" />
                 <span asp-validation-for="Note" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label"></label>
-                <input asp-for="ImageUrl" class="form-control" />
-                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                <label class="control-label">Image</label>
+                <input type="file" name="imageFile" class="form-control" />
+                <span class="text-danger">@ViewData["ImageError"]</span>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -39,5 +43,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

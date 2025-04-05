@@ -13,7 +13,6 @@ namespace RestauApp.Application.DTOs
         public required string Nom { get; set; }
         [Required]
         public required string Note { get; set; }
-        [Required]
-        public required string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }
