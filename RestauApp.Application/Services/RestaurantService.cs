@@ -34,7 +34,5 @@ namespace RestauApp.Application.Services
         public Task<IEnumerable<Restaurant>> GetCuisineAsync(string cuisine) {
             return restaurantRepository.GetByCuisineAsync(cuisine);
         } 
-
-
     }
 }
