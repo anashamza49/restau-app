@@ -5,7 +5,7 @@
 namespace RestauApp.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class myfirstmig : Migration
+    public partial class first : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -30,9 +30,9 @@ namespace RestauApp.Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nom = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CuisineId = table.Column<int>(type: "int", nullable: false),
+                    CuisineId = table.Column<int>(type: "int", nullable: true),
                     Note = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -41,8 +41,7 @@ namespace RestauApp.Infrastructure.Migrations
                         name: "FK_Restaurants_Cuisines_CuisineId",
                         column: x => x.CuisineId,
                         principalTable: "Cuisines",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(

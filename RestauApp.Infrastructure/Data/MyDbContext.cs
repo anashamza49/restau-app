@@ -12,13 +12,6 @@ namespace RestauApp.Infrastructure.Data
         public DbSet<Restaurant> Restaurants { get; set; }
         public DbSet<Cuisine> Cuisines { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Restaurant>()
-                .HasOne(r => r.Cuisine)
-                .WithMany(c => c.Restaurants)
-                .HasForeignKey(r => r.CuisineId);
-        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

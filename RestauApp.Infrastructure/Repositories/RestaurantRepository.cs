@@ -15,13 +15,13 @@ namespace RestauApp.Infrastructure.Repositories
                     ?? throw new KeyNotFoundException($"le restaurant avec id : {id} est introuvable !");
         }
 
-        public async Task<IEnumerable<Restaurant>> GetAllAsync()
+        public async Task<IEnumerable<Restaurant>> GetAllAsyncr()
         {
             logger.LogInformation("récupération de tous les restaurants");
             return await myDbContext.Restaurants.ToListAsync();
         }
 
-        public async Task AddAsync(Restaurant restaurant)
+        public async Task AddAsyncr(Restaurant restaurant)
         {
             logger.LogInformation("ajout d'un nouveau restaurant : {nom}", restaurant.Nom.ToLower());
             await myDbContext.Restaurants.AddAsync(restaurant);

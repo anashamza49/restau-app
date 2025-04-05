@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RestauApp.Application\RestauApp.Application.csproj" />
-    <ProjectReference Include="..\RestauApp.Infrastructure\RestauApp.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

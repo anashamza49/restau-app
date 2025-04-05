@@ -14,13 +14,13 @@ namespace RestauApp.Application.Services
         }
         public async Task<List<RestaurantDto>> GetAllRestauAsync()
         {
-            var restaurants = await restaurantRepository.GetAllAsync();
+            var restaurants = await restaurantRepository.GetAllAsyncr();
             return mapper.Map<List<RestaurantDto>>(restaurants);
         }
         public async Task AddRestauAsync(RestaurantDto restaurantDto)
         {
             var restaurant = mapper.Map<Restaurant>(restaurantDto);
-            await restaurantRepository.AddAsync(restaurant);
+            await restaurantRepository.AddAsyncr(restaurant);
         }
         public async Task UpdateRestauAsync(RestaurantDto newRestaurantDto)
         {

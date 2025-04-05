@@ -26,6 +26,8 @@ builder.Services.AddAutoMapper(typeof(RestaurantProfile));
 // config DI
 builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
 builder.Services.AddScoped<IRestaurantService, RestaurantService>();
+builder.Services.AddScoped<ICuisineRepository, CuisineRepository>();
+builder.Services.AddScoped<ICuisineService, CuisineService>();
 
 var app = builder.Build();
 

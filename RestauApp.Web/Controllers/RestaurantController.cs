@@ -35,20 +35,25 @@ namespace RestauApp.Web.Controllers
         }
 
         [HttpPost("Create")]
-        public async Task<IActionResult> Create(RestaurantDto restaurantDto, IFormFile imageFile)
+        public async Task<IActionResult> Create(RestaurantDto restaurantDto, IFormFile? imageFile)
         {
+            if (imageFile == null || imageFile.Length == 0)
+            {
+                ViewData["ImageError"] = "L'image est obligatoire !";
+                return View(restaurantDto);
+            }
+
             if (ModelState.IsValid)
             {
-                if (imageFile != null && imageFile.Length > 0)
-                {
-                    restaurantDto.ImageUrl = await UploadImage(imageFile);
-                }
-
+                restaurantDto.ImageUrl = await UploadImage(imageFile);
                 await restaurantService.AddRestauAsync(restaurantDto);
+                Console.WriteLine($"Ajout restaurant : {restaurantDto.Nom}, {restaurantDto.Note}, {restaurantDto.ImageUrl}");
                 return RedirectToAction(nameof(Index));
             }
+
             return View(restaurantDto);
         }
+
 
         [HttpGet("Edit/{id:int}")]
         public async Task<IActionResult> Edit(int id)
