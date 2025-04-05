@@ -1,0 +1,21 @@
+﻿@model RestauApp.Application.DTOs.RestaurantDto
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Nom">Nom</label>
+        <input type="text" id="Nom" name="Nom" class="form-control" value="@Model.Nom" />
+    </div>
+
+    <div class="form-group">
+        <label for="Note">Note</label>
+        <input type="number" id="Note" name="Note" class="form-control" value="@Model.Note" />
+    </div>
+
+    <div class="form-group">
+        <label for="Image">Image</label>
+        <input type="file" id="Image" name="imageFile" class="form-control" />
+        <span>@ViewData["ImageError"]</span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Sauvegarder</button>
+</form>

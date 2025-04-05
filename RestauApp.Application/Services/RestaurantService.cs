@@ -22,10 +22,21 @@ namespace RestauApp.Application.Services
             var restaurant = mapper.Map<Restaurant>(restaurantDto);
             await restaurantRepository.AddAsyncr(restaurant);
         }
-        public async Task UpdateRestauAsync(RestaurantDto newRestaurantDto)
+        public async Task UpdateRestauAsync(RestaurantDto restaurantDto)
         {
-            var restaurant = mapper.Map<Restaurant>(newRestaurantDto);
-            await restaurantRepository.UpdateAsync(restaurant);
+            var existingRestaurant = await restaurantRepository.GetByIdAsync(restaurantDto.Id);
+
+            if (existingRestaurant == null)
+            {
+                throw new Exception("Restaurant non trouvé");
+            }
+
+            var restaurantEntity = mapper.Map<Restaurant>(restaurantDto);
+
+            existingRestaurant.Nom = restaurantEntity.Nom;
+            existingRestaurant.Note = restaurantEntity.Note;
+            existingRestaurant.ImageUrl = restaurantEntity.ImageUrl;
+            await restaurantRepository.UpdateAsync(existingRestaurant);
         }
         public async Task DeleteRestauAsync(int id)
         {
