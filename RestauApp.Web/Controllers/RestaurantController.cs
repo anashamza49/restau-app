@@ -81,6 +81,17 @@ namespace RestauApp.Web.Controllers
             return View(restaurantDto);
         }
 
+        [HttpGet("Delete/{id:int}")]
+        public async Task<IActionResult> DeleteConfirmation(int id)
+        {
+            var restaurant = await restaurantService.GetRestauByIdAsync(id);
+            if (restaurant == null)
+            {
+                return NotFound();
+            }
+            return View(restaurant);
+        }
+
         [HttpPost("Delete/{id:int}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
