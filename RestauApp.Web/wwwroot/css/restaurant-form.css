@@ -1,0 +1,128 @@
+﻿
+.restaurant-form-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+    .restaurant-form-container h2 {
+        color: #333;
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 1.8rem;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 15px;
+    }
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #555;
+        font-size: 1rem;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+    .form-control:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+        outline: none;
+    }
+
+input[type="number"] {
+    max-width: 150px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.error-message {
+    display: block;
+    color: #f44336;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .btn-primary:hover {
+        background-color: #388E3C;
+    }
+
+.btn-secondary {
+    background-color: #757575;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+    .btn-secondary:hover {
+        background-color: #616161;
+    }
+
+.form-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.image-preview {
+    margin-top: 10px;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .restaurant-form-container {
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+}

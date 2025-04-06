@@ -1,42 +1,46 @@
 ﻿@model List<RestauApp.Application.DTOs.RestaurantDto>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Restaurants";
 }
 
-<h1>Index</h1>
+<div class="restaurant-list">
+    <h1>Nos Restaurants</h1>
 
-<div>
-    <h4>Restaurant</h4>
+    <h4>Liste des restaurants</h4>
     <hr />
+
     @foreach (var restaurant in Model)
     {
-        <dl class="row">
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => restaurant.Nom)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => restaurant.Nom)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => restaurant.Note)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => restaurant.Note)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => restaurant.ImageUrl)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => restaurant.ImageUrl)
-            </dd>
-            <dd class="col-sm-10 offset-sm-2">
-                <a asp-action="Edit" asp-route-id="@restaurant.Id" class="btn btn-warning btn-sm">Modifier</a>
-                <a asp-action="Delete" asp-route-id="@restaurant.Id" class="btn btn-danger btn-sm">Supprimer</a>
-            </dd>
-        </dl>
+        <div class="restaurant-card">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => restaurant.Nom)
+                </dt>
+                <dd class="col-sm-10 restaurant-name">
+                    @Html.DisplayFor(model => restaurant.Nom)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => restaurant.Note)
+                </dt>
+                <dd class="col-sm-10 restaurant-rating">
+                    @Html.DisplayFor(model => restaurant.Note)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => restaurant.ImageUrl)
+                </dt>
+                <dd class="col-sm-10">
+                    <img src="@restaurant.ImageUrl" alt="@restaurant.Nom" class="restaurant-image" />
+                </dd>
+                <dd class="col-sm-10 offset-sm-2 btn-actions">
+                    <a asp-action="Edit" asp-route-id="@restaurant.Id" class="btn btn-warning btn-sm">Modifier</a>
+                    <a asp-action="Delete" asp-route-id="@restaurant.Id" class="btn btn-danger btn-sm">Supprimer</a>
+                </dd>
+            </dl>
+        </div>
     }
-</div>
-<div>
-    <a asp-action="Create">Create New</a>
+
+    <div>
+        <a asp-action="Create" class="create-new">Ajouter un restaurant</a>
+    </div>
 </div>

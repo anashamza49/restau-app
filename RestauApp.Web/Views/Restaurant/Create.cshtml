@@ -6,40 +6,35 @@
 
 <h1>Create</h1>
 
-<h4>Restaurant</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create" method="post" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="restaurant-form-container">
+    <h4>Restaurant</h4>
+    <hr />
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="error-message"></div>
 
-            <div class="form-group">
-                <label asp-for="Nom" class="control-label"></label>
-                <input asp-for="Nom" class="form-control" />
-                <span asp-validation-for="Nom" class="text-danger"></span>
-            </div>
+        <div class="form-group">
+            <label asp-for="Nom" class="control-label"></label>
+            <input asp-for="Nom" class="form-control" />
+            <span asp-validation-for="Nom" class="error-message"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Note" class="control-label"></label>
-                <input asp-for="Note" class="form-control" />
-                <span asp-validation-for="Note" class="text-danger"></span>
-            </div>
+        <div class="form-group">
+            <label asp-for="Note" class="control-label"></label>
+            <input asp-for="Note" class="form-control" />
+            <span asp-validation-for="Note" class="error-message"></span>
+        </div>
 
-            <div class="form-group">
-                <label class="control-label">Image</label>
-                <input type="file" name="imageFile" class="form-control" />
-                <span class="text-danger">@ViewData["ImageError"]</span>
-            </div>
+        <div class="form-group">
+            <label class="control-label">Image</label>
+            <input type="file" name="imageFile" class="form-control" />
+            <span class="error-message">@ViewData["ImageError"]</span>
+        </div>
 
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
+        <div class="form-actions">
+            <input type="submit" value="Create" class="btn-primary" />
+            <a asp-action="Index" class="btn-secondary">Back to List</a>
+        </div>
+    </form>
 </div>
 
 @section Scripts {

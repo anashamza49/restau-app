@@ -1,21 +1,41 @@
 ﻿@model RestauApp.Application.DTOs.RestaurantDto
 
-<form method="post" enctype="multipart/form-data">
-    <div class="form-group">
-        <label for="Nom">Nom</label>
-        <input type="text" id="Nom" name="Nom" class="form-control" value="@Model.Nom" />
-    </div>
+<div class="restaurant-form-container">
+    <h2>@(Model.Id == 0 ? "Ajouter un restaurant" : "Modifier le restaurant")</h2>
 
-    <div class="form-group">
-        <label for="Note">Note</label>
-        <input type="number" id="Note" name="Note" class="form-control" value="@Model.Note" />
-    </div>
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="Nom">Nom</label>
+            <input type="text" id="Nom" name="Nom" class="form-control" value="@Model.Nom" />
+            <span asp-validation-for="Nom" class="text-danger"></span>
+        </div>
 
-    <div class="form-group">
-        <label for="Image">Image</label>
-        <input type="file" id="Image" name="imageFile" class="form-control" />
-        <span>@ViewData["ImageError"]</span>
-    </div>
+        <div class="form-group">
+            <label for="Note">Note</label>
+            <input type="number" id="Note" name="Note" class="form-control" value="@Model.Note" />
+            <span asp-validation-for="Note" class="text-danger"></span>
+        </div>
 
-    <button type="submit" class="btn btn-primary">Sauvegarder</button>
-</form>
+        <div class="form-group">
+            <label for="Image">Image</label>
+            <input type="file" id="Image" name="imageFile" class="form-control" />
+            @if (!string.IsNullOrEmpty((string)ViewData["ImageError"]))
+            {
+                <span class="error-message">@ViewData["ImageError"]</span>
+            }
+
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <div class="mt-2">
+                    <p>Image actuelle:</p>
+                    <img src="@Model.ImageUrl" alt="@Model.Nom" class="image-preview" />
+                </div>
+            }
+        </div>
+
+        <div class="form-actions">
+            <a href="@Url.Action("Index")" class="btn-secondary">Annuler</a>
+            <button type="submit" class="btn-primary">Sauvegarder</button>
+        </div>
+    </form>
+</div>
