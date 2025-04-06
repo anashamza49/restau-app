@@ -10,10 +10,18 @@ namespace RestauApp.Infrastructure.Repositories
     {
         public async Task<Restaurant> GetByIdAsync(int id)
         {
-            logger.LogInformation("récupération du restaurant avec id : {id}", id);
-            return await myDbContext.Restaurants.FindAsync(id)
-                    ?? throw new KeyNotFoundException($"le restaurant avec id : {id} est introuvable !");
+            logger.LogInformation("Récupération du restaurant avec ID : {id}", id);
+            var restaurant = await myDbContext.Restaurants.FindAsync(id);
+
+            if (restaurant == null)
+            {
+                logger.LogWarning("Restaurant avec ID {id} non trouvé", id);
+                throw new KeyNotFoundException($"Le restaurant avec l'ID : {id} est introuvable.");
+            }
+
+            return restaurant;
         }
+
 
         public async Task<IEnumerable<Restaurant>> GetAllAsyncr()
         {

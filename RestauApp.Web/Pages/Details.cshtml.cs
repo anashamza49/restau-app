@@ -1,23 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RestauApp.Application.DTOs;
+using RestauApp.Domain.Entities;
 using RestauApp.Domain.Interfaces;
 
 namespace RestauApp.Web.Pages
 {
-    public class DetailsModel : PageModel
+    public class DetailsModel(IRestaurantRepository restaurantRepository) : PageModel
     {
-        private readonly IRestaurantService _restaurantService;
-
-        public DetailsModel(IRestaurantService restaurantService)
-        {
-            _restaurantService = restaurantService;
-        }
-        public RestaurantDto Restaurant { get; set; }
+        public Restaurant Restaurant { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int id)
         {
-            Restaurant = await _restaurantService.GetRestauByIdAsync(id);
+            Restaurant = await restaurantRepository.GetByIdAsync(id);
 
             if (Restaurant == null)
             {
@@ -26,5 +21,6 @@ namespace RestauApp.Web.Pages
 
             return Page();
         }
+
     }
 }

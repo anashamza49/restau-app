@@ -13,6 +13,8 @@ namespace RestauApp.Application.DTOs
         public required string Nom { get; set; }
         [Required]
         public required string Note { get; set; }
+        public int? CuisineId { get; set; }
+
         public string? ImageUrl { get; set; }
     }
 }

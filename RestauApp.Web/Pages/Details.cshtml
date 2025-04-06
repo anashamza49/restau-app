@@ -2,16 +2,13 @@
 @model RestauApp.Application.DTOs.RestaurantDto
 
 <h1>Détails du Restaurant</h1>
-
-<div>
+@if (Model != null)
+{
     <h4>@Model.Nom</h4>
     <p>@Model.Note</p>
-    @if (!string.IsNullOrEmpty(Model.ImageUrl))
-    {
-        <img src="@Model.ImageUrl" alt="@Model.Nom" class="image-preview" />
-    }
-</div>
-
-<div>
-    <a href="@Url.Page("Index")">Retour à la liste</a>
-</div>
+    <img src="@Model.ImageUrl" alt="@Model.Nom" class="image-preview" />
+}
+else
+{
+    <p>Le restaurant demandé est introuvable.</p>
+}
