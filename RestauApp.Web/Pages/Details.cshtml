@@ -1,0 +1,17 @@
+﻿@page "{id:int}"
+@model RestauApp.Application.DTOs.RestaurantDto
+
+<h1>Détails du Restaurant</h1>
+
+<div>
+    <h4>@Model.Nom</h4>
+    <p>@Model.Note</p>
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <img src="@Model.ImageUrl" alt="@Model.Nom" class="image-preview" />
+    }
+</div>
+
+<div>
+    <a href="@Url.Page("Index")">Retour à la liste</a>
+</div>

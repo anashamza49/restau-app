@@ -39,7 +39,6 @@ namespace RestauApp.Web.Controllers
         {
             if (imageFile == null || imageFile.Length == 0)
             {
-                ViewData["ImageError"] = "L'image est obligatoire !";
                 return View(restaurantDto);
             }
 
@@ -47,7 +46,6 @@ namespace RestauApp.Web.Controllers
             {
                 restaurantDto.ImageUrl = await UploadImage(imageFile);
                 await restaurantService.AddRestauAsync(restaurantDto);
-                Console.WriteLine($"Ajout restaurant : {restaurantDto.Nom}, {restaurantDto.Note}, {restaurantDto.ImageUrl}");
                 return RedirectToAction(nameof(Index));
             }
 

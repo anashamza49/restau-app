@@ -29,6 +29,9 @@ builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 builder.Services.AddScoped<ICuisineRepository, CuisineRepository>();
 builder.Services.AddScoped<ICuisineService, CuisineService>();
 
+// pour razor pages
+builder.Services.AddRazorPages(); 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -44,6 +47,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+// ajout de razor pages !!!
+app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",
