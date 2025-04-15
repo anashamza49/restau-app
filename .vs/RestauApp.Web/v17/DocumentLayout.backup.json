@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\views\\restaurant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\views\\restaurant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C79BD22-14DD-436E-A75C-0EC09DC8D0B8}|RestauApp.Domain\\RestauApp.Domain.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C79BD22-14DD-436E-A75C-0EC09DC8D0B8}|RestauApp.Domain\\RestauApp.Domain.csproj|solutionrelative:restauapp.domain\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.application\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|solutionrelative:restauapp.application\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.application\\interfaces\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|solutionrelative:restauapp.application\\interfaces\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.application\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|solutionrelative:restauapp.application\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ECAECD0-683E-4119-9D1D-BD6D143E4BF8}|RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.infrastructure\\restauapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6ECAECD0-683E-4119-9D1D-BD6D143E4BF8}|RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj|solutionrelative:restauapp.infrastructure\\restauapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\lenovo l380\\desktop\\restau-app\\restauapp.web\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +46,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml",
-              "RelativeToolTip": "RestauApp.Web\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T22:32:49.694Z",
+              "DocumentIndex": 2,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Domain\\Entities\\Restaurant.cs",
+              "RelativeDocumentMoniker": "RestauApp.Domain\\Entities\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Domain\\Entities\\Restaurant.cs",
+              "RelativeToolTip": "RestauApp.Domain\\Entities\\Restaurant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T23:12:07.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "RestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\DTOs\\RestaurantDto.cs",
+              "RelativeDocumentMoniker": "RestauApp.Application\\DTOs\\RestaurantDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\DTOs\\RestaurantDto.cs",
+              "RelativeToolTip": "RestauApp.Application\\DTOs\\RestaurantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T23:11:58.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RestauApp.Web\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T23:09:11.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "RestauApp.Web\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\index.css*",
+              "RelativeToolTip": "RestauApp.Web\\wwwroot\\css\\index.css*",
+              "ViewState": "AgIAAOcAAAAAAAAAAAAiwOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-15T22:57:43.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "RestauApp.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "RestauApp.Web\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-15T22:49:29.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:48:12.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Restaurant\\Edit.cshtml",
               "RelativeDocumentMoniker": "RestauApp.Web\\Views\\Restaurant\\Edit.cshtml",
@@ -75,105 +132,7 @@
               "RelativeToolTip": "RestauApp.Web\\Views\\Restaurant\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T22:31:37.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RestaurantDto.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\DTOs\\RestaurantDto.cs",
-              "RelativeDocumentMoniker": "RestauApp.Application\\DTOs\\RestaurantDto.cs",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\DTOs\\RestaurantDto.cs",
-              "RelativeToolTip": "RestauApp.Application\\DTOs\\RestaurantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T22:30:32.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Program.cs",
-              "RelativeDocumentMoniker": "RestauApp.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Program.cs",
-              "RelativeToolTip": "RestauApp.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T22:29:25.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RestaurantService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\Services\\RestaurantService.cs",
-              "RelativeDocumentMoniker": "RestauApp.Application\\Services\\RestaurantService.cs",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\Services\\RestaurantService.cs",
-              "RelativeToolTip": "RestauApp.Application\\Services\\RestaurantService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBEAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T22:26:04.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRestaurantService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\Interfaces\\IRestaurantService.cs",
-              "RelativeDocumentMoniker": "RestauApp.Application\\Interfaces\\IRestaurantService.cs",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Application\\Interfaces\\IRestaurantService.cs",
-              "RelativeToolTip": "RestauApp.Application\\Interfaces\\IRestaurantService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T22:25:59.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "RestauApp.Web\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T22:25:46.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RestauApp.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj",
-              "RelativeToolTip": "RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-15T22:22:20.559Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Restaurant\\Index.cshtml",
-              "RelativeDocumentMoniker": "RestauApp.Web\\Views\\Restaurant\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo L380\\Desktop\\restau-app\\RestauApp.Web\\Views\\Restaurant\\Index.cshtml",
-              "RelativeToolTip": "RestauApp.Web\\Views\\Restaurant\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T22:28:28.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T22:31:37.207Z"
             }
           ]
         }
