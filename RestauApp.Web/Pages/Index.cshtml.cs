@@ -11,7 +11,7 @@ public class IndexModel : PageModel
         _restaurantService = restaurantService;
     }
 
-    public List<RestaurantDto> Restaurants { get; set; }
+    public IList<RestaurantDto> Restaurants { get; set; } = new List<RestaurantDto>();
 
     public async Task OnGetAsync()
     {

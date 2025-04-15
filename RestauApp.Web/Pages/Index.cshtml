@@ -1,12 +1,13 @@
 ﻿@page
-@model List<RestauApp.Application.DTOs.RestaurantDto>
+@model IndexModel
+@using RestauApp.Application.DTOs
 
 <h1>Liste des Restaurants</h1>
 
 <div>
     <h4>Restaurants</h4>
     <hr />
-    @foreach (var restaurant in Model)
+    @foreach (var restaurant in Model.Restaurants)
     {
         <dl class="row">
             <dt class="col-sm-2">
