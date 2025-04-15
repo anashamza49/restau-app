@@ -29,6 +29,7 @@ builder.Services.AddScoped<IRestaurantService, RestaurantService>();
 builder.Services.AddScoped<ICuisineRepository, CuisineRepository>();
 builder.Services.AddScoped<ICuisineService, CuisineService>();
 
+
 // pour razor pages
 builder.Services.AddRazorPages(); 
 
@@ -43,6 +44,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseDeveloperExceptionPage();
 
 app.UseRouting();
 

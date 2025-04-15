@@ -4,26 +4,33 @@ using RestauApp.Domain.Interfaces;
 
 namespace RestauApp.Web.Controllers
 {
-    public class RestaurantController(IRestaurantService restaurantService) : Controller
+    [Route("Restaurant")]
+    public class RestaurantController : Controller
     {
-        [HttpGet("")]
+        private readonly IRestaurantService _restaurantService;
+
+        public RestaurantController(IRestaurantService restaurantService)
+        {
+            _restaurantService = restaurantService;
+        }
+
         public async Task<IActionResult> Index()
         {
-            var restaurants = await restaurantService.GetAllRestauAsync();
+            var restaurants = await _restaurantService.GetAllRestauAsync();
             return View(restaurants);
         }
 
         [HttpGet("Cuisine/{cuisine}")]
         public async Task<IActionResult> GetByCuisine(string cuisine)
         {
-            var restaurants = await restaurantService.GetCuisineAsync(cuisine);
+            var restaurants = await _restaurantService.GetCuisineAsync(cuisine);
             return View("Index", restaurants);
         }
 
         [HttpGet("{id:int}")]
         public async Task<IActionResult> Details(int id)
         {
-            var restaurant = await restaurantService.GetRestauByIdAsync(id);
+            var restaurant = await _restaurantService.GetRestauByIdAsync(id);
             if (restaurant == null) return NotFound();
             return View(restaurant);
         }
@@ -45,18 +52,17 @@ namespace RestauApp.Web.Controllers
             if (ModelState.IsValid)
             {
                 restaurantDto.ImageUrl = await UploadImage(imageFile);
-                await restaurantService.AddRestauAsync(restaurantDto);
+                await _restaurantService.AddRestauAsync(restaurantDto);
                 return RedirectToAction(nameof(Index));
             }
 
             return View(restaurantDto);
         }
 
-
         [HttpGet("Edit/{id:int}")]
         public async Task<IActionResult> Edit(int id)
         {
-            var restaurant = await restaurantService.GetRestauByIdAsync(id);
+            var restaurant = await _restaurantService.GetRestauByIdAsync(id);
             if (restaurant == null) return NotFound();
             return View(restaurant);
         }
@@ -73,7 +79,7 @@ namespace RestauApp.Web.Controllers
                     restaurantDto.ImageUrl = await UploadImage(imageFile);
                 }
 
-                await restaurantService.UpdateRestauAsync(restaurantDto);
+                await _restaurantService.UpdateRestauAsync(restaurantDto);
                 return RedirectToAction(nameof(Index));
             }
             return View(restaurantDto);
@@ -82,7 +88,7 @@ namespace RestauApp.Web.Controllers
         [HttpGet("Delete/{id:int}")]
         public async Task<IActionResult> DeleteConfirmation(int id)
         {
-            var restaurant = await restaurantService.GetRestauByIdAsync(id);
+            var restaurant = await _restaurantService.GetRestauByIdAsync(id);
             if (restaurant == null)
             {
                 return NotFound();
@@ -94,7 +100,7 @@ namespace RestauApp.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            await restaurantService.DeleteRestauAsync(id);
+            await _restaurantService.DeleteRestauAsync(id);
             return RedirectToAction(nameof(Index));
         }
 

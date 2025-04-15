@@ -12,5 +12,6 @@ namespace RestauApp.Domain.Interfaces
         Task UpdateRestauAsync(RestaurantDto newRestaurantDto);
         Task DeleteRestauAsync(int id);
         Task<IEnumerable<Restaurant>> GetCuisineAsync(string cuisine);
+
     }
 }
