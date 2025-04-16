@@ -1,12 +1,12 @@
-﻿@page "{id:int}"
-@model RestauApp.Application.DTOs.RestaurantDto
+﻿@page "/Details/{id:int}"
+@model RestauApp.Web.Pages.DetailsModel
 
 <h1>Détails du Restaurant</h1>
-@if (Model != null)
+@if (Model.Restaurant != null)
 {
-    <h4>@Model.Nom</h4>
-    <p>@Model.Note</p>
-    <img src="@Model.ImageUrl" alt="@Model.Nom" class="image-preview" />
+    <h4>@Model.Restaurant.Nom</h4>
+    <p>@Model.Restaurant.Note</p>
+    <img src="@Model.Restaurant.ImageUrl" alt="@Model.Restaurant.Nom" class="image-preview" />
 }
 else
 {

@@ -7,11 +7,19 @@ namespace RestauApp.Application.Services
 {
     public class RestaurantService(IRestaurantRepository restaurantRepository, IMapper mapper) : IRestaurantService
     {
-        public async Task<RestaurantDto> GetRestauByIdAsync(int id)
+    public async Task<RestaurantDto?> GetRestauByIdAsync(int id)
+    {
+        try
         {
             var restau = await restaurantRepository.GetByIdAsync(id);
             return mapper.Map<RestaurantDto>(restau);
         }
+        catch (KeyNotFoundException)
+        {
+            return null;
+        }
+    }
+
         public async Task<List<RestaurantDto>> GetAllRestauAsync()
         {
             var restaurants = await restaurantRepository.GetAllAsyncr();

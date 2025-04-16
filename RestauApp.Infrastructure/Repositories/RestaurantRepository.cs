@@ -8,18 +8,10 @@ namespace RestauApp.Infrastructure.Repositories
 {
     public class RestaurantRepository(MyDbContext myDbContext, ILogger<RestaurantRepository> logger) : IRestaurantRepository
     {
-        public async Task<Restaurant> GetByIdAsync(int id)
+        public async Task<Restaurant?> GetByIdAsync(int id)
         {
             logger.LogInformation("Récupération du restaurant avec ID : {id}", id);
-            var restaurant = await myDbContext.Restaurants.FindAsync(id);
-
-            if (restaurant == null)
-            {
-                logger.LogWarning("Restaurant avec ID {id} non trouvé", id);
-                throw new KeyNotFoundException($"Le restaurant avec l'ID : {id} est introuvable.");
-            }
-
-            return restaurant;
+            return await myDbContext.Restaurants.FirstOrDefaultAsync(r => r.Id == id);
         }
 
 

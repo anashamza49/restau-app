@@ -6,13 +6,13 @@ using RestauApp.Domain.Interfaces;
 
 namespace RestauApp.Web.Pages
 {
-    public class DetailsModel(IRestaurantRepository restaurantRepository) : PageModel
+    public class DetailsModel(IRestaurantService restaurantService) : PageModel
     {
-        public Restaurant Restaurant { get; set; }
+        public RestaurantDto Restaurant { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(int id)
+        public async Task<IActionResult> OnGetAsync()
         {
-            Restaurant = await restaurantRepository.GetByIdAsync(id);
+            Restaurant = await restaurantService.GetRestauByIdAsync(2);
 
             if (Restaurant == null)
             {
