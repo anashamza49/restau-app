@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RestauApp.Application.DTOs;
-using RestauApp.Domain.Entities;
 using RestauApp.Domain.Interfaces;
 
 namespace RestauApp.Web.Pages

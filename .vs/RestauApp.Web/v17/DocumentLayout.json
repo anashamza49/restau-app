@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\wwwroot\\css\\restaurant-form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\wwwroot\\css\\restaurant-form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\wwwroot\\css\\details.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.application\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2B52D26-476F-4475-9844-81DD53391D11}|RestauApp.Application\\RestauApp.Application.csproj|solutionrelative:restauapp.application\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +47,12 @@
       "RelativeMoniker": "D:0:0:{6ECAECD0-683E-4119-9D1D-BD6D143E4BF8}|RestauApp.Infrastructure\\RestauApp.Infrastructure.csproj|solutionrelative:restauapp.infrastructure\\repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|solutionrelative:restauapp.web\\pages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{381CCA9B-21C4-411F-B7B4-1FA09D314468}|RestauApp.Web\\RestauApp.Web.csproj|c:\\users\\ahamzaoui\\desktop\\restau-app\\restauapp.web\\pages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +78,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "restaurant-form.css",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\restaurant-form.css",
+              "RelativeDocumentMoniker": "RestauApp.Web\\wwwroot\\css\\restaurant-form.css",
+              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\restaurant-form.css",
+              "RelativeToolTip": "RestauApp.Web\\wwwroot\\css\\restaurant-form.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-16T10:39:12.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "details.css",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\details.css",
+              "RelativeDocumentMoniker": "RestauApp.Web\\wwwroot\\css\\details.css",
+              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\details.css",
+              "RelativeToolTip": "RestauApp.Web\\wwwroot\\css\\details.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-16T10:28:55.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "RestauApp.Web\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "RestauApp.Web\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-16T10:27:36.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "RestauApp.Web\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T10:00:25.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Program.cs",
               "RelativeDocumentMoniker": "RestauApp.Web\\Program.cs",
@@ -71,13 +143,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Index.cshtml",
               "RelativeToolTip": "RestauApp.Web\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T09:14:52.722Z",
               "EditorCaption": ""
@@ -90,14 +162,14 @@
               "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Details.cshtml",
               "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Details.cshtml",
               "RelativeToolTip": "RestauApp.Web\\Pages\\Details.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAABMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T09:14:44.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "RestaurantController.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Controllers\\RestaurantController.cs",
               "RelativeDocumentMoniker": "RestauApp.Web\\Controllers\\RestaurantController.cs",
@@ -110,7 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Add.cshtml",
+              "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Add.cshtml",
+              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Add.cshtml*",
+              "RelativeToolTip": "RestauApp.Web\\Pages\\Add.cshtml*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T09:15:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "RestaurantRepository.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Infrastructure\\Repositories\\RestaurantRepository.cs",
               "RelativeDocumentMoniker": "RestauApp.Infrastructure\\Repositories\\RestaurantRepository.cs",
@@ -123,7 +208,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RestauApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T10:29:16.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RestaurantService.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Application\\Services\\RestaurantService.cs",
               "RelativeDocumentMoniker": "RestauApp.Application\\Services\\RestaurantService.cs",
@@ -136,20 +234,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Details.cshtml.cs",
               "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Details.cshtml.cs",
               "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Details.cshtml.cs",
               "RelativeToolTip": "RestauApp.Web\\Pages\\Details.cshtml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T08:55:46.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "RestaurantApiController.cs",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Controllers\\RestaurantApiController.cs",
               "RelativeDocumentMoniker": "RestauApp.Web\\Controllers\\RestaurantApiController.cs",
@@ -162,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Delete.cshtml",
               "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Delete.cshtml",
@@ -171,19 +269,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T09:15:11.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Add.cshtml",
-              "RelativeDocumentMoniker": "RestauApp.Web\\Pages\\Add.cshtml",
-              "ToolTip": "C:\\Users\\ahamzaoui\\Desktop\\restau-app\\RestauApp.Web\\Pages\\Add.cshtml",
-              "RelativeToolTip": "RestauApp.Web\\Pages\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-16T09:15:13.495Z",
               "EditorCaption": ""
             }
           ]

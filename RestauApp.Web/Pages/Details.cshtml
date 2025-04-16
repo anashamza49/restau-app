@@ -1,14 +1,275 @@
 ﻿@page "/Details/{id:int}"
 @model RestauApp.Web.Pages.DetailsModel
+<link rel="stylesheet" href="~/css/details.css" asp-append-version="true" />
 
-<h1>Détails du Restaurant</h1>
 @if (Model.Restaurant != null)
 {
-    <h4>@Model.Restaurant.Nom</h4>
-    <p>@Model.Restaurant.Note</p>
-    <img src="@Model.Restaurant.ImageUrl" alt="@Model.Restaurant.Nom" class="image-preview" />
+    <div class="restaurant-header">
+        <div class="header-background"></div>
+        <div class="header-pattern"></div>
+        <div class="header-content">
+            <h1>Détails du Restaurant</h1>
+            <div class="restaurant-badge">
+                <i class="fas fa-utensils"></i> Gastronomie
+            </div>
+        </div>
+    </div>
+
+    <div class="details-container">
+
+        <div class="restaurant-showcase">
+            <div class="image-container">
+                <img src="@Model.Restaurant.ImageUrl" alt="@Model.Restaurant.Nom" class="image-preview" />
+            </div>
+            <div class="restaurant-info">
+                <h2 class="restaurant-name">@Model.Restaurant.Nom</h2>
+
+                <div class="rating">
+                    <div class="stars">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            if (i <= Math.Floor(Convert.ToDouble(Model.Restaurant.Note)))
+                            {
+                                <span class="star">★</span>
+                            }
+                            else if (i - 0.5 <= Convert.ToDouble(Model.Restaurant.Note))
+                            {
+                                <span class="star">★</span>
+                            }
+                            else
+                            {
+                                <span class="star">☆</span>
+                            }
+                        }
+                    </div>
+                    <span class="rating-number">@Model.Restaurant.Note / 5</span>
+                </div>
+
+                <!-- Restaurant info items -->
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-text">
+                        <strong>Adresse</strong>
+                        123 Rue de la Gastronomie, 75001 Paris
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-text">
+                        <strong>Téléphone</strong>
+                        +33 1 23 45 67 89
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info-text">
+                        <strong>Horaires</strong>
+                        Lun-Ven: 11h30-14h30, 19h-22h30<br>
+                        Sam-Dim: 12h-15h, 19h-23h
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="info-text">
+                        <strong>Cuisine</strong>
+                        Française, Méditerranéenne
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="action-button primary-button">
+                        <i class="fas fa-calendar-alt button-icon"></i> Réserver
+                    </button>
+                    <button class="action-button secondary-button">
+                        <i class="fas fa-directions button-icon"></i> Itinéraire
+                    </button>
+                    <button class="action-button outline-button">
+                        <i class="fas fa-heart button-icon"></i> Favoris
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="features-section">
+            <h3 class="section-title">Caractéristiques</h3>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <span class="feature-name">Wi-Fi gratuit</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-parking"></i>
+                    </div>
+                    <span class="feature-name">Parking</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <span class="feature-name">Accessible</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <span class="feature-name">Carte bancaire</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <span class="feature-name">Bar à vins</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <span class="feature-name">Menu enfant</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="reviews-section">
+            <h3 class="section-title">Avis des clients</h3>
+            <div class="review-list">
+                <div class="review-card">
+                    <div class="review-quote">"</div>
+                    <div class="review-header">
+                        <div class="reviewer-avatar">MP</div>
+                        <div class="reviewer-info">
+                            <h4 class="reviewer-name">Marie P.</h4>
+                            <div class="review-date">12 mars 2023</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Une expérience culinaire exceptionnelle ! Les plats sont savoureux et le service est impeccable.
+                        Je recommande vivement le foie gras maison et le filet de bœuf. Nous reviendrons certainement.
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-quote">"</div>
+                    <div class="review-header">
+                        <div class="reviewer-avatar">JD</div>
+                        <div class="reviewer-info">
+                            <h4 class="reviewer-name">Jean D.</h4>
+                            <div class="review-date">28 février 2023</div>
+                        </div>
+                        <div class="review-rating">★★★★☆</div>
+                    </div>
+                    <p class="review-text">
+                        Très bon restaurant avec une ambiance chaleureuse. Les plats sont bien présentés et délicieux.
+                        Le service pourrait être un peu plus rapide, mais cela n'a pas gâché notre soirée.
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-quote">"</div>
+                    <div class="review-header">
+                        <div class="reviewer-avatar">SL</div>
+                        <div class="reviewer-info">
+                            <h4 class="reviewer-name">Sophie L.</h4>
+                            <div class="review-date">15 janvier 2023</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Un véritable coup de cœur ! La carte des vins est impressionnante et le sommelier de très bon conseil.
+                        Les desserts sont à tomber par terre, surtout le soufflé au chocolat. Une adresse à conserver précieusement.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="location-section">
+            <h3 class="section-title">Localisation</h3>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    Carte en cours de chargement...
+                </div>
+                <div class="map-pin">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="similar-section">
+            <h3 class="section-title">Vous pourriez aussi aimer</h3>
+            <div class="similar-grid">
+                <div class="similar-card">
+                    <img src="/placeholder.jpg" alt="Restaurant similaire" class="similar-image">
+                    <div class="similar-info">
+                        <h4 class="similar-name">Le Petit Bistro</h4>
+                        <p class="similar-cuisine">Cuisine française</p>
+                        <div class="similar-rating">★★★★☆</div>
+                    </div>
+                </div>
+
+                <div class="similar-card">
+                    <img src="/placeholder.jpg" alt="Restaurant similaire" class="similar-image">
+                    <div class="similar-info">
+                        <h4 class="similar-name">La Trattoria</h4>
+                        <p class="similar-cuisine">Cuisine italienne</p>
+                        <div class="similar-rating">★★★★★</div>
+                    </div>
+                </div>
+
+                <div class="similar-card">
+                    <img src="/placeholder.jpg" alt="Restaurant similaire" class="similar-image">
+                    <div class="similar-info">
+                        <h4 class="similar-name">Le Jardin Secret</h4>
+                        <p class="similar-cuisine">Cuisine méditerranéenne</p>
+                        <div class="similar-rating">★★★★☆</div>
+                    </div>
+                </div>
+
+                <div class="similar-card">
+                    <img src="/placeholder.jpg" alt="Restaurant similaire" class="similar-image">
+                    <div class="similar-info">
+                        <h4 class="similar-name">Sushi Palace</h4>
+                        <p class="similar-cuisine">Cuisine japonaise</p>
+                        <div class="similar-rating">★★★★☆</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer">
+        <p class="footer-text">© 2023 RestauApp - Tous droits réservés</p>
+    </footer>
 }
 else
 {
-    <p>Le restaurant demandé est introuvable.</p>
+
+    <div class="not-found">
+        <div class="not-found-icon">
+            <i class="fas fa-search"></i>
+        </div>
+        <p>Le restaurant demandé est introuvable. Veuillez vérifier l'identifiant ou revenir à la liste des restaurants.</p>
+        <div class="action-buttons" style="justify-content: center; margin-top: 2rem;">
+            <a href="/Restaurants" class="action-button primary-button">
+                <i class="fas fa-arrow-left button-icon"></i> Retour à la liste
+            </a>
+        </div>
+    </div>
 }
